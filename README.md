@@ -1,4 +1,4 @@
-# 📚 Nome do Projeto
+# 📚 Knowledge Path
 
 ![Banner do Projeto](imagens/banner.jpeg)
 
@@ -21,9 +21,9 @@ Este projeto tem como objetivo **[descrição breve do projeto]**, oferecendo um
 ---
 
 ## 🚦 Status do Projeto
-> ✅ **Finalizado**  
-> ⚠️ **Em desenvolvimento**  
-> ❌ **Pausado**  
+<!-- ✅ **Finalizado**  -->
+-> ⚠️ **Em desenvolvimento**  
+<!-- ❌ **Pausado**  -->
  
 
 ---
