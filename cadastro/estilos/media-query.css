@@ -35,9 +35,7 @@
     section#login > div#imagem{
         float: right;
         width: 50%;
-        height: 350px;
-        background-size: cover;
-        overflow: hidden;
+        height: 149%;
     }
     
     section#login > div#formulario{

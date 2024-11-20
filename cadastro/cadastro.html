@@ -19,52 +19,45 @@
                 <h1>Cadastro</h1>
                 <p>Bem-vindo(a)! Preencha as informações abaixo para criar sua conta e acessar a plataforma.</p>
                 <form action="../login/login.html" method="post" autocomplete="on">
-                    <!-- Campo para Nome -->
+                    
                     <div class="campo">
                         <i class="material-icons">person</i>
                         <input type="text" name="nome" id="inome" placeholder="Digite seu nome completo" required maxlength="50">
                         <label for="inome">Nome Completo: </label>
                     </div>
 
-                    <!-- Campo para E-mail -->
                     <div class="campo">
                         <i class="material-icons">email</i>
                         <input type="email" name="email" id="iemail" placeholder="Digite seu e-mail" required autocomplete="email" maxlength="30">
                         <label for="iemail">E-mail: </label>
                     </div>
 
-                    <!-- Campo para Senha -->
                     <div class="campo">
                         <i class="material-icons">vpn_key</i>
                         <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" required autocomplete="new-password" minlength="8" maxlength="20">
                         <label for="isenha">Senha: </label>
                     </div>
 
-                    <!-- Campo para Idade -->
                     <div class="campo">
                         <i class="material-icons">cake</i>
                         <input type="number" name="idade" id="iidade" placeholder="Digite sua idade" required min="5" max="120">
                         <label for="iidade">Idade: </label>
                     </div>
 
-                    <!-- Campo para Escola -->
                     <div class="campo">
                         <i class="material-icons">school</i>
                         <input type="text" name="escola" id="iescola" placeholder="Digite o nome da sua escola" required maxlength="50">
                         <label for="iescola">Escola: </label>
                     </div>
 
-                    <!-- Campo para Ano Escolar -->
                     <div class="campo">
                         <i class="material-icons">grade</i>
                         <input type="text" name="ano" id="iano" placeholder="Digite o ano escolar (ex.: 3º ano)" required maxlength="20">
                         <label for="iano">Ano Escolar: </label>
                     </div>
 
-                    <!-- Botão de Cadastro -->
                     <input type="submit" value="Cadastrar">
 
-                    <!-- Link para Login -->
                     <a href="../login/login.html" class="botao">
                         Já tenho uma conta <i class="material-icons">login</i>
                     </a>
