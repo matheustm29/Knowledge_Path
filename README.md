@@ -58,10 +58,14 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 - ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white)
 
 ---
+
 ## 👩‍💻👨‍💻 Pessoas Desenvolvedoras do Projeto
-| [![Desenvolvedor 1](imagens/dev1.png)](https://github.com/dev1) | [![Desenvolvedor 2](imagens/dev2.png)](https://github.com/dev2) |
-|:---------------------------------------------------------------:|:---------------------------------------------------------------:|
-| [Desenvolvedor 1](https://github.com/dev1)                     | [Desenvolvedor 2](https://github.com/dev2)                     |
+
+- [Matheus Alphonse](https://github.com/matheustm29)  
+- [Desenvolvedor 2](https://github.com/dev2)  
+- [Desenvolvedor 3](https://github.com/dev3)  
+- [Desenvolvedor 4](https://github.com/dev4)  
+- [Desenvolvedor 5](https://github.com/dev5)  
 
 ---
 
