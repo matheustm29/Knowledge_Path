@@ -1,19 +1,25 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
 
 :root {
-    --cor0:#c5ebd6;
-    --cor1:#FFCCCC;
-    --cor2:#FF6666;
-    --cor3:#FF0000;
-    --cor4:#990000;
-    --cor5:#660000;
+    /* Paleta de cores */
+    --cor0: #f0f8ff; /* Azul Claro (fundo principal) */
+    --cor1: #e9ecef; /* Cinza Claro (secundário) */
+    --cor2: #212529; /* Preto Suave (texto principal) */
+    --cor3: #3b82f6; /* Azul Médio (links e destaques) */
+    --cor4: #74c69d; /* Verde Suave (botões e ações positivas) */
+    --cor5: #ffd43b; /* Amarelo Pastel (avisos e destaques) */
+    --cor6: #ff6b6b; /* Vermelho Moderado (erros e alertas) */
 
-    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-destaque: 'Bebas Neue', cursive;
-    --fonte-gochi: 'Gochi Hand', cursive;
+    /* Fontes */
+    --fonte-padrao: 'Roboto', Arial, sans-serif; /* Fonte fácil de ler */
+    --fonte-destaque: 'Montserrat', sans-serif; /* Para títulos e elementos importantes */
+    --fonte-escrita: 'Lora', serif; /* Fonte  para destaques ou citações */
 }
 
 *{
@@ -30,170 +36,259 @@ a.externo::after{
     content: '\00A0\1F517';
 }
 
-header{
-    background-image: linear-gradient(to bottom, var(--cor3),var(--cor5));
-    min-height: 150px;
-    text-align: center;
-    padding-top: 40px;
+header {
+    background-image: url('../imagens/banner.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 230px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 
-header > h1 {
-    color: white;
-    font-family: var(--fonte-destaque);
-    font-size: 3em;
-    font-weight: normal;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+nav {
+    background-color: var(--cor2); /* Preto Suave */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-header > p{
-    font-family: var(--fonte-padrao);
-    font-size: 1.2em;
-    max-width: 500px;
-    padding-right: 10px;
-    padding-left: 10px;
-    margin: auto;
-    padding-bottom: 50px;
-    color: white;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
-}
-
-nav{
-    text-align: center;
-    background-color: var(--cor5);
+nav .menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
     padding: 10px;
-    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+    margin: 0;
 }
 
-nav > a {
-    color: var(--cor1);
-    padding: 10px;
+nav .menu li {
+    margin: 0 15px;
+}
+
+nav .menu a {
+    color: white;
     text-decoration: none;
+    font-family: var(--fonte-destaque); /* Fonte de destaque */
     font-weight: bold;
-    transition-duration: 0.5s;
-}
-
-nav > a:hover{
-    background-color: var(--cor3);
-    color:var(--cor5);
-}
-
-main{
-    padding: 20px;
-    min-width: 300px;
-    max-width: 1000px;
-    margin-bottom: 30px;
-    margin: auto;
-    background-color: white;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-main h1{
-    color: var(--cor5) ;
-    font-family: var(--fonte-gochi);
-    font-weight: normal;
-    font-size: 1.8em;
-}
-
-main h2{
-    font-family: var(--fonte-gochi);
-    color: var(--cor4);
-    font-size: 1.3em;
-    font-weight: normal;
-    background-image: linear-gradient(to right,var(--cor1),transparent);
-    text-indent: 8px;
-}
-
-main p{
-    margin: 15px 0px;  
-    text-align: justify;
-    text-indent: 30px;
     font-size: 1em;
-    line-height: 2em;  
+    transition: color 0.3s, background-color 0.3s;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
-main strong{
-    color:var(--cor4);
+nav .menu a:hover {
+    color: var(--cor1); /* Cinza Claro */
+    background-color: var(--cor4); /* Verde Suave */
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: var(--fonte-padrao);
+}
+
+#hero {
+    background-image: url('../imagens/blackboard.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: white; 
+    height: 300px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    padding: 20px;
+    margin: 15px;
+    
+}
+
+/* Hero Content */
+.hero-content h1 {
+    font-family: var(--fonte-destaque); 
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); 
+}
+
+.hero-content p {
+    font-family: var(--fonte-padrao); 
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6); 
+}
+
+/* Call-to-Action Button */
+.cta-button {
+    background-color: var(--cor4); 
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
     font-weight: bold;
+    transition: background-color 0.3s;
 }
 
-main a{
+.cta-button:hover {
+    background-color: var(--cor3); 
+}
+
+/* Títulos */
+main h2 {
+    color: var(--cor3); 
+    font-family: var(--fonte-destaque);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Dicas de Estudo */
+#dicas-estudo .dica {
+    background-color: var(--cor1); 
+    border: 1px solid var(--cor2); 
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#dicas-estudo .dica h3 {
+    color: var(--cor4); 
+    margin-bottom: 5px;
+}
+
+/* Simulados */
+#simulados ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#simulados ul li {
+    margin: 10px 0;
+}
+
+#simulados ul li a {
+    color: var(--cor3); 
     text-decoration: none;
     font-weight: bold;
-    color: var(--cor5);
-    background-color: var(--cor1);
-    padding: 2px 6px;
+    transition: color 0.3s;
 }
 
-main a:hover{
-    text-decoration: underline;
-    color: var(--cor4);
+#simulados ul li a:hover {
+    color: var(--cor4); 
 }
 
-main img{
-    width: 100%;
-}
-
-main img.pequena{
-    max-width: 350px;
-    display: block;
-    margin: auto;
-}
-
-div.video{
-    background-color: var(--cor5);
-    margin: 0px -20px 30px -20px;
-    padding: 20px;
-    padding-bottom: 56.5%;
-    position: relative;
-}
-
-div.video > iframe{
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
-}
-
-aside{
-    background-color: var(--cor1);
-    padding: 10px;
+/* Matérias-Chave */
+#materias-chave .materia {
+    background-color: var(--cor5); 
+    padding: 15px;
+    margin-bottom: 15px;
     border-radius: 10px;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+    color: var(--cor2); 
 }
 
-aside > h3{
-    background-color: var(--cor4);
+#materias-chave .materia h3 {
+    color: var(--cor6); 
+    margin-bottom: 5px;
+}
+#calendario {
+    padding: 20px;
+    text-align: center;
+}
+
+.calendar-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: var(--cor1); /* Cinza Claro */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.calendar-header button {
+    background-color: var(--cor4); /* Verde Suave */
     color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.calendar-header button:hover {
+    background-color: var(--cor3); /* Azul Médio */
+}
+
+.calendar-header #month-year {
+    font-family: var(--fonte-destaque);
+    font-size: 1.5em;
+}
+
+.calendar {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.calendar th, .calendar td {
     padding: 10px;
-    margin: -10px -10px 0px -10px;
-    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    border: 1px solid var(--cor2); /* Preto Suave */
+    height: 50px;
 }
 
-aside > ul {
-    list-style-type: '\2714\00A0\00A0';
-    list-style-position: inside;
-    columns: 2;
+.calendar td {
+    background-color: white;
+    color: var(--cor2);
+    cursor: pointer;
 }
 
-footer{
-    background-color: var(--cor5);
+.calendar td:hover {
+    background-color: var(--cor5); /* Amarelo Pastel */
+}
+
+.calendar .important-date {
+    background-color: var(--cor6); /* Vermelho Moderado */
+    color: white;
+    font-weight: bold;
+}
+footer {
+    background-color: var(--cor2); /* Preto Suave */
     color: white;
     text-align: center;
-    font-size: 0.8em;
-    padding: 5px;
+    padding: 20px;
+    font-size: 0.9em;
+    margin-top: 20px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
 }
 
-footer a{
-    color: white;
-    font-weight: bold;
+footer p {
+    margin: 5px 0;
+}
+
+footer .autores {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+footer .autores li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer .autores a {
+    color: var(--cor3); /* Azul Médio */
     text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
 }
 
-footer a:hover{
-    text-decoration: underline;
-    color: var(--cor1);
+footer .autores a:hover {
+    color: var(--cor4); /* Verde Suave */
 }
