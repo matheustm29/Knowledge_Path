@@ -1,1 +1,147 @@
 @charset "UTF-8";
+
+/* Telas pequenas (smartphones, <= 768px) */
+@media screen and (max-width: 768px) {
+    header {
+        height: 150px;
+        background-size: contain;
+    }
+
+    .menu li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .menu-toggle {
+        display: none; 
+    }
+    .menu-toggle:checked ~ .menu {
+        display: flex;
+    }
+
+    #hero {
+        height: 200px;
+        padding: 10px;
+    }
+
+    .hero-content h1 {
+        font-size: 1.8em;
+    }
+
+    .hero-content p {
+        font-size: 1em;
+    }
+
+    .cta-button {
+        padding: 8px 15px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .calendar-container {
+        padding: 10px;
+    }
+
+    footer {
+        font-size: 0.8em;
+        padding: 10px;
+    }
+}
+
+/* Telas médias (tablets, 769px - 1024px) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    header {
+        height: 200px;
+    }
+
+    nav .menu {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav .menu li {
+        margin: 5px 10px;
+    }
+
+    #hero {
+        height: 250px;
+        padding: 15px;
+    }
+
+    .hero-content h1 {
+        font-size: 2.2em;
+    }
+
+    .hero-content p {
+        font-size: 1.1em;
+    }
+
+    .cta-button {
+        padding: 10px 18px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    .calendar-container {
+        padding: 15px;
+    }
+
+    footer {
+        font-size: 0.9em;
+        padding: 15px;
+    }
+}
+
+/* Telas grandes (desktop, >= 1025px) */
+@media screen and (min-width: 1025px) {
+    header {
+        height: 250px;
+    }
+
+    nav .menu {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    nav .menu li {
+        margin: 0 15px;
+    }
+
+    #hero {
+        height: 300px;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5em;
+    }
+
+    .hero-content p {
+        font-size: 1.2em;
+    }
+
+    .cta-button {
+        padding: 10px 20px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .calendar-container {
+        padding: 20px;
+    }
+
+    footer {
+        font-size: 1em;
+        padding: 20px;
+    }
+}
