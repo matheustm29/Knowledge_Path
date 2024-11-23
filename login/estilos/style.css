@@ -1,24 +1,31 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
 /*
     Paleta de cores:
-    Verde : #49a09d
-    Lilás : #5f2c82
-    fogo : #AD4A23
-    queimado :#332C29
+    Fundo Principal: #f0f8ff (Azul Claro)
+    Fundo Secundário: #e9ecef (Cinza Claro)
+    Texto Principal: #212529 (Preto Suave)
+    Links e Destaques: #3b82f6 (Azul Médio)
+    Botões e Ações Positivas: #74c69d (Verde Suave)
+    Avisos: #ffd43b (Amarelo Pastel)
+    Alertas: #ff6b6b (Vermelho Moderado)
 */
 
 * {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 0px;
-    padding: 0px;
+    font-family: 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body, html {
-    background-color: #AD4A23;
+    background-color: #f0f8ff; /* Fundo Principal */
     height: 100vh;
     width: 100vw;
+    color: #212529; /* Texto Principal */
 }
 
 main {
@@ -32,11 +39,11 @@ section#login {
     top: 50%;
     left: 50%;
     overflow: auto;
-    background-color: white;
+    background-color: #e9ecef; /* Fundo Secundário */
     width: 80%;
     height: 600px;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 
     transform: translate(-50%, -50%);
     transition: width 0.3s, height 0.3s;
@@ -45,29 +52,33 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background: #AD4A23 url(../imagens/library.jpeg) no-repeat;
+    background: url('../imagens/library.jpeg') no-repeat;
     background-size: cover;
-    background-position: left bottom;
+    background-position: center;
     height: 250px;
 }
 
-section#login > div#formulario{
+section#login > div#formulario {
     display: block;
     padding: 20px;
+    background-color: #f0f8ff; /* Fundo Principal no formulário */
+    border-radius: 8px;
 }
 
 div#formulario > h1 {
     text-align: center;
     margin-bottom: 10px;
+    color: #212529; /* Texto Principal */
 }
 
 div#formulario > p {
-    font-size: 0.8em;
+    font-size: 0.9em;
+    color: #212529; /* Texto Principal */
 }
 
 form > div.campo {
-    background-color: #AD4A23;
-    border: 2px solid #AD4A23;
+    background-color: #74c69d; /* Verde Suave */
+    border: 2px solid #74c69d; /* Verde Suave */
     width: 100%;
     display: flex;
     align-items: center;
@@ -88,17 +99,16 @@ div.campo > i {
 }
 
 div.campo > input {
-    background-color: #332C29;
+    background-color: #e9ecef; /* Fundo Secundário */
     font-size: 1em;
     width: calc(100% - 44px);
     height: 100%;
-    border: 0px;
+    border: 0;
     border-radius: 8px;
     padding: 4px;
-    /*transform: translateY(-12px);*/
 }
 
-div.campo >input:focus-within{
+div.campo > input:focus-within {
     background-color: white;
     border: none;
 }
@@ -108,7 +118,7 @@ form > input[type=submit] {
     font-size: 1em;
     width: 100%;
     height: 40px;
-    background-color: #332C29;
+    background-color: #3b82f6; /* Azul Médio */
     color: white;
     border: none;
     border-radius: 5px;
@@ -116,7 +126,7 @@ form > input[type=submit] {
 }
 
 form > input[type=submit]:hover {
-    background-color: #181513;
+    background-color: #74c69d; /* Verde Suave */
 }
 
 form > a.botao {
@@ -127,17 +137,18 @@ form > a.botao {
     height: 40px;
     padding-top: 7px;
     margin-top: 5px;
-    background-color: white;
-    color: #181513;
-    border: 1px solid #332C29;
+    background-color: #e9ecef; /* Fundo Secundário */
+    color: #212529; /* Texto Principal */
+    border: 1px solid #3b82f6; /* Azul Médio */
     border-radius: 5px;
     text-decoration: none;
 }
 
-form >a.botao:hover {
-    background-color: #534843;
+form > a.botao:hover {
+    background-color: #74c69d; /* Verde Suave */
     color: white;
 }
+
 form > a.botao > i {
     font-size: 0.8em;
 }
