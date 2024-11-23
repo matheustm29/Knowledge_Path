@@ -8,17 +8,23 @@
     section#login{
         width: 80vw;
         height: 280px;
+        display: flex;
+        flex: row;
     }
 
     section#login > div#imagem{
-        float: left;
         width: 30%;
-        height: 170%;
+        height: auto;
+        background-size: cover;
+        background-position: center;
     }
 
     section#login > div#formulario{
-        float: right;
         width: 70%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }
 
@@ -30,12 +36,16 @@
     section#login{
         width: 950px;
         height: 350px;
+        display: flex;
+        flex: row;
     }
     
     section#login > div#imagem{
-        float: right;
         width: 50%;
-        height: 149%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     
     section#login > div#formulario{
