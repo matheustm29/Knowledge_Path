@@ -2,9 +2,6 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px){ /*Tablet*/
 
-    body {
-        background-image: linear-gradient(to top, #AD4A23, #332C29);
-    }
     section#login{
         width: 80vw;
         height: 280px;
@@ -24,9 +21,6 @@
 
 @media screen and (min-width: 992px){ /*Desktop*/
 
-    body {
-        background-image: linear-gradient(to top, #AD4A23, #332C29);
-    }
     section#login{
         width: 950px;
         height: 350px;

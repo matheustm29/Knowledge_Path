@@ -3,16 +3,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 
-/*
-    Paleta de cores:
-    Fundo Principal: #f0f8ff (Azul Claro)
-    Fundo Secundário: #e9ecef (Cinza Claro)
-    Texto Principal: #212529 (Preto Suave)
-    Links e Destaques: #3b82f6 (Azul Médio)
-    Botões e Ações Positivas: #74c69d (Verde Suave)
-    Avisos: #ffd43b (Amarelo Pastel)
-    Alertas: #ff6b6b (Vermelho Moderado)
-*/
+:root {
+    
+    /* Paleta de cores */
+    --cor0: #f0f8ff; /* Azul Claro (fundo principal) */
+    --cor1: #e9ecef; /* Cinza Claro (secundário) */
+    --cor2: #212529; /* Preto Suave (texto principal) */
+    --cor3: #3b82f6; /* Azul Médio (links e destaques) */
+    --cor4: #74c69d; /* Verde Suave (botões e ações positivas) */
+    --cor5: #ffd43b; /* Amarelo Pastel (avisos e destaques) */
+    --cor6: #ff6b6b; /* Vermelho Moderado (erros e alertas) */
+
+    /* Fontes */
+    --fonte-padrao: 'Roboto', Arial, sans-serif; /* Fonte fácil de ler */
+    --fonte-destaque: 'Montserrat', sans-serif; /* Para títulos e elementos importantes */
+    --fonte-escrita: 'Lora', serif; /* Fonte  para destaques ou citações */
+}
 
 * {
     font-family: 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -22,10 +28,11 @@
 }
 
 body, html {
-    background-color: #f0f8ff; /* Fundo Principal */
+    background-image: linear-gradient(to top, var(--cor4), var(--cor3));
+    background-color: #f0f8ff; 
     height: 100vh;
     width: 100vw;
-    color: #212529; /* Texto Principal */
+    color: #212529; 
 }
 
 main {
@@ -39,7 +46,7 @@ section#login {
     top: 50%;
     left: 50%;
     overflow: auto;
-    background-color: #e9ecef; /* Fundo Secundário */
+    background-color: #e9ecef; 
     width: 80%;
     height: 600px;
     border-radius: 20px;
@@ -52,7 +59,7 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background: url('../imagens/library.jpeg') no-repeat;
+    background: url('../imagens/blue.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     height: 250px;
@@ -61,24 +68,24 @@ section#login > div#imagem {
 section#login > div#formulario {
     display: block;
     padding: 20px;
-    background-color: #f0f8ff; /* Fundo Principal no formulário */
+    background-color: #f0f8ff; 
     border-radius: 8px;
 }
 
 div#formulario > h1 {
     text-align: center;
     margin-bottom: 10px;
-    color: #212529; /* Texto Principal */
+    color: #212529; 
 }
 
 div#formulario > p {
     font-size: 0.9em;
-    color: #212529; /* Texto Principal */
+    color: #212529; 
 }
 
 form > div.campo {
-    background-color: #74c69d; /* Verde Suave */
-    border: 2px solid #74c69d; /* Verde Suave */
+    background-color: #74c69d; 
+    border: 2px solid #74c69d;
     width: 100%;
     display: flex;
     align-items: center;
@@ -99,7 +106,7 @@ div.campo > i {
 }
 
 div.campo > input {
-    background-color: #e9ecef; /* Fundo Secundário */
+    background-color: #e9ecef; 
     font-size: 1em;
     width: calc(100% - 44px);
     height: 100%;
@@ -118,7 +125,7 @@ form > input[type=submit] {
     font-size: 1em;
     width: 100%;
     height: 40px;
-    background-color: #3b82f6; /* Azul Médio */
+    background-color: #3b82f6; 
     color: white;
     border: none;
     border-radius: 5px;
@@ -126,7 +133,7 @@ form > input[type=submit] {
 }
 
 form > input[type=submit]:hover {
-    background-color: #74c69d; /* Verde Suave */
+    background-color: #74c69d; 
 }
 
 form > a.botao {
@@ -137,15 +144,15 @@ form > a.botao {
     height: 40px;
     padding-top: 7px;
     margin-top: 5px;
-    background-color: #e9ecef; /* Fundo Secundário */
-    color: #212529; /* Texto Principal */
-    border: 1px solid #3b82f6; /* Azul Médio */
+    background-color: #e9ecef; 
+    color: #212529; 
+    border: 1px solid #3b82f6; 
     border-radius: 5px;
     text-decoration: none;
 }
 
 form > a.botao:hover {
-    background-color: #74c69d; /* Verde Suave */
+    background-color: #74c69d; 
     color: white;
 }
 

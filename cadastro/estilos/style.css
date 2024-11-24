@@ -1,22 +1,30 @@
 @charset "UTF-8";
 
-/*
-    Paleta de cores:
-    Verde : #49a09d
-    Lilás : #5f2c82
-    fogo : #AD4A23
-    queimado :#332C29
-*/
+:root {
+    /* Paleta de cores */
+    --cor0: #f0f8ff; /* Azul Claro (fundo principal) */
+    --cor1: #e9ecef; /* Cinza Claro (secundário) */
+    --cor2: #212529; /* Preto Suave (texto principal) */
+    --cor3: #3b82f6; /* Azul Médio (links e destaques) */
+    --cor4: #74c69d; /* Verde Suave (botões e ações positivas) */
+    --cor5: #ffd43b; /* Amarelo Pastel (avisos e destaques) */
+    --cor6: #ff6b6b; /* Vermelho Moderado (erros e alertas) */
+
+    /* Fontes */
+    --fonte-padrao: 'Roboto', Arial, sans-serif; /* Fonte fácil de ler */
+    --fonte-destaque: 'Montserrat', sans-serif; /* Para títulos e elementos importantes */
+    --fonte-escrita: 'Lora', serif; /* Fonte  para destaques ou citações */
+}
 
 * {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 0px;
-    padding: 0px;
+    font-family: var(--fonte-padrao);
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body, html {
-    background-color: #AD4A23;
+    background-image: linear-gradient(to top, var(--cor4), var(--cor3));
     height: 100vh;
     width: 100vw;
 }
@@ -31,7 +39,7 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    background-color: white;
+    background-color: var(--cor1);
     width: 80%;
     max-width: 900px;
     min-height: 600px;
@@ -47,13 +55,13 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background: #AD4A23 url(../imagens/library.jpeg) no-repeat;
+    background: var(--cor3) url(../imagens/blue.jpg) no-repeat;
     background-size: cover;
     background-position: left bottom;
     height: 250px;
 }
 
-section#login > div#formulario{
+section#login > div#formulario {
     display: block;
     padding: 20px;
     min-height: calc(100% - 250px);
@@ -63,15 +71,18 @@ section#login > div#formulario{
 div#formulario > h1 {
     text-align: center;
     margin-bottom: 10px;
+    font-family: var(--fonte-destaque);
+    color: var(--cor2);
 }
 
 div#formulario > p {
     font-size: 0.8em;
+    color: var(--cor2);
 }
 
 form > div.campo {
-    background-color: #AD4A23;
-    border: 2px solid #AD4A23;
+    background-color: var(--cor4);
+    border: 2px solid var(--cor4);
     width: 100%;
     display: flex;
     align-items: center;
@@ -92,17 +103,16 @@ div.campo > i {
 }
 
 div.campo > input {
-    background-color: #332C29;
+    background-color: var(--cor1);
     font-size: 1em;
     width: calc(100% - 44px);
     height: 100%;
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    /*transform: translateY(-12px);*/
 }
 
-div.campo >input:focus-within{
+div.campo > input:focus-within {
     background-color: white;
     border: none;
 }
@@ -112,15 +122,16 @@ form > input[type=submit] {
     font-size: 1em;
     width: 100%;
     height: 40px;
-    background-color: #332C29;
+    background-color: var(--cor3);
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 form > input[type=submit]:hover {
-    background-color: #181513;
+    background-color: var(--cor2);
 }
 
 form > a.botao {
@@ -132,16 +143,18 @@ form > a.botao {
     padding-top: 7px;
     margin-top: 5px;
     background-color: white;
-    color: #181513;
-    border: 1px solid #332C29;
+    color: var(--cor2);
+    border: 1px solid var(--cor3);
     border-radius: 5px;
     text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-form >a.botao:hover {
-    background-color: #534843;
+form > a.botao:hover {
+    background-color: var(--cor4);
     color: white;
 }
+
 form > a.botao > i {
     font-size: 0.8em;
 }
