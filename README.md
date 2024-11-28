@@ -5,17 +5,9 @@
 ---
 # Projeto de Programação Web Front-End
 
-
-| ID   |                                 Equipe                                    |   RA       | 
-| :--: | :-----------------------------------------------------------------------: | :--------: |
-|   01 |              Leonardo Rodrigues de Souza                                  |  2313189   |    
-|   02 |           Luhan Christyan Rodrigues                                       |  2453630   |   
-|   03 |           Matheus Ferreira Alphonse dos Anjos                             |  2454220   | 
-
 ## 📑 Índice
 - [Descrição do Projeto](#-descrição-do-projeto)
 - [Funcionalidades e Demonstração da Aplicação](#-funcionalidades-e-demonstração-da-aplicação)
-- [Acesso ao Projeto](#-acesso-ao-projeto)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 - [Pessoas Desenvolvedoras do Projeto](#-pessoas-desenvolvedoras-do-projeto)
 
@@ -37,19 +29,12 @@ Além disso, o Knowledge Path atende estudantes de diversas faixas etárias e n�
 - **Calendário de Datas Importantes**: Auxilia no gerenciamento de prazos e eventos relevantes.
 
 ### Demonstração:
-Adicione aqui uma imagem, vídeo ou link que mostre o projeto funcionando:
+Link do Vídeo:
 ![Demonstração](imagens/demonstracao.png)  
-**Ou acesse a aplicação ao vivo:** [Link para a demonstração](#).
+**Ou acesse a aplicação ao vivo:** [Link para a demonstração](https://matheustm29.github.io/Knowledge_Path/).
 
 ---
 
-## 🔗 Acesso ao Projeto
-Você pode acessar os arquivos do projeto clicando [aqui](#).  
-Ou clonar o repositório:
-
-git clone https://github.com/matheustm29/Knowledge_Path/
-
----
 
 ## 🚀 Tecnologias utilizadas
 
@@ -61,11 +46,11 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ---
 
-## 👩‍💻👨‍💻 Pessoas Desenvolvedoras do Projeto
+## 👩‍💻👨‍💻 Desenvolvedores do Projeto
 
-- [Matheus Alphonse](https://github.com/matheustm29)  
-- [Leonardo Rodrigues](https://github.com/LeoRodrigues1)  
-- [Luhan Chrystian](https://github.com/dev3)   
+- [Matheus Ferreira Alphonse dos Anjos](https://github.com/matheustm29)  
+- [Leonardo Rodrigues de Souza](https://github.com/LeoRodrigues1)  
+- [Luhan Chrystian Rodrigues](https://github.com/LuhanChristyan)   
 
 
 
