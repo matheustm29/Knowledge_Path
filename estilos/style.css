@@ -62,9 +62,9 @@ nav {
 .menu {
     display: none;
     flex-direction: column;
-    background-color: var(--cor2); /* Preto Suave */
+    background-color: var(--cor2); 
     position: absolute;
-    top: 100%; /* Alinha o menu logo abaixo do nav */
+    top: 100%; 
     left: 0;
     width: 100%;
     padding: 10px 0;

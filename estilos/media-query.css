@@ -9,10 +9,10 @@
     }
 
     nav {
-        margin-top: 0; /* Remove margem superior do nav */
+        margin-top: 0; 
     }
     .menu-toggle:not(:checked) ~ .menu {
-        display: none; /* Garante que o menu esteja fechado */
+        display: none; 
     }
     .menu li {
         margin: 10px 0;
@@ -118,7 +118,7 @@
 /* Telas grandes (desktop, >= 1025px) */
 @media screen and (min-width: 1025px) {
     header {
-        height: 250px;
+        height: 285px;
         background-size: cover;
         background-position: center;
     }
