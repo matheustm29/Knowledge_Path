@@ -3,36 +3,38 @@
 ![Banner do Projeto](imagens/banner.jpeg)
 
 ---
+# Projeto de Programação Web Front-End
+
+
+| ID   |                                 Equipe                                    |   RA       | 
+| :--: | :-----------------------------------------------------------------------: | :--------: |
+|   01 |              Leonardo Rodrigues de Souza                                  |  2313189   |    
+|   02 |           Luhan Christyan Rodrigues                                       |  2453630   |   
+|   03 |           Matheus Ferreira Alphonse dos Anjos                             |  2454220   | 
 
 ## 📑 Índice
 - [Descrição do Projeto](#-descrição-do-projeto)
-- [Status do Projeto](#-status-do-projeto)
 - [Funcionalidades e Demonstração da Aplicação](#-funcionalidades-e-demonstração-da-aplicação)
 - [Acesso ao Projeto](#-acesso-ao-projeto)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 - [Pessoas Desenvolvedoras do Projeto](#-pessoas-desenvolvedoras-do-projeto)
-- [Licença](#-licença)
 
 ---
 
 ## 📝 Descrição do Projeto
-Este projeto tem como objetivo **[descrição breve do projeto]**, oferecendo uma solução para **[problema que o projeto resolve]**. Ele foi desenvolvido com foco em **[objetivo principal]**, sendo uma aplicação prática e acessível para **[público-alvo]**.
+Este projeto, Knowledge Path, tem como objetivo ser um guia sofisticado para estudantes que estão se preparando para vestibulares e outras provas importantes. Ele oferece uma solução prática para a falta de organização e centralização de informações essenciais, como dicas de estudo, simulados, matérias-chave e calendários de datas importantes.
 
----
-
-## 🚦 Status do Projeto
-<!-- ✅ **Finalizado**  -->
--> ⚠️ **Em desenvolvimento**  
-<!-- ❌ **Pausado**  -->
- 
+Desenvolvido com foco na acessibilidade e organização, o site proporciona um ambiente intuitivo e motivador, ajudando os estudantes a se manterem no caminho certo para atingir seus objetivos acadêmicos.
+Além disso, o Knowledge Path atende estudantes de diversas faixas etárias e níveis de conhecimento, oferecendo recursos como:
 
 ---
 
 ## ✨ Funcionalidades e Demonstração da Aplicação
 ### Funcionalidades:
-- [x] Funcionalidade 1: **[descrição curta]**
-- [x] Funcionalidade 2: **[descrição curta]**
-- [ ] Funcionalidade futura: **[descrição curta]**
+- **Dicas de Estudo**: Ajuda na organização e melhora a retenção de conteúdos.
+- **Simulados e Provas Anteriores**: Disponibiliza testes e questões para prática direcionada.
+- **Resumo de Matérias-Chave**: Foca nos tópicos mais cobrados em provas.
+- **Calendário de Datas Importantes**: Auxilia no gerenciamento de prazos e eventos relevantes.
 
 ### Demonstração:
 Adicione aqui uma imagem, vídeo ou link que mostre o projeto funcionando:
@@ -45,7 +47,7 @@ Adicione aqui uma imagem, vídeo ou link que mostre o projeto funcionando:
 Você pode acessar os arquivos do projeto clicando [aqui](#).  
 Ou clonar o repositório:
 
-git clone https://github.com/usuario/repositorio.git
+git clone https://github.com/matheustm29/Knowledge_Path/
 
 ---
 
@@ -62,17 +64,8 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 ## 👩‍💻👨‍💻 Pessoas Desenvolvedoras do Projeto
 
 - [Matheus Alphonse](https://github.com/matheustm29)  
-- [Desenvolvedor 2](https://github.com/dev2)  
-- [Desenvolvedor 3](https://github.com/dev3)  
-- [Desenvolvedor 4](https://github.com/dev4)  
-- [Desenvolvedor 5](https://github.com/dev5)  
+- [Leonardo Rodrigues](https://github.com/LeoRodrigues1)  
+- [Luhan Chrystian](https://github.com/dev3)   
 
----
-
-## 📜 Licença
-Este projeto está sob a licença **MIT**.  
-Consulte o arquivo `LICENSE` para mais detalhes.
-
----
 
 
