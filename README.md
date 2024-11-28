@@ -64,7 +64,7 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 ## 👩‍💻👨‍💻 Pessoas Desenvolvedoras do Projeto
 
 - [Matheus Alphonse](https://github.com/matheustm29)  
-- [Leonardo Rodrigues](https://github.com/LuhanChristyan)  
+- [Leonardo Rodrigues](https://github.com/LeoRodrigues1)  
 - [Luhan Chrystian](https://github.com/dev3)   
 
 
