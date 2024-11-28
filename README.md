@@ -8,7 +8,6 @@
 ## 📑 Índice
 - [Descrição do Projeto](#-descrição-do-projeto)
 - [Funcionalidades e Demonstração da Aplicação](#-funcionalidades-e-demonstração-da-aplicação)
-- [Acesso ao Projeto](#-acesso-ao-projeto)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 - [Pessoas Desenvolvedoras do Projeto](#-pessoas-desenvolvedoras-do-projeto)
 
@@ -36,13 +35,6 @@ Link do Vídeo:
 
 ---
 
-## 🔗 Acesso ao Projeto
-Você pode acessar os arquivos do projeto clicando [aqui](#).  
-Ou clonar o repositório:
-
-git clone https://github.com/matheustm29/Knowledge_Path/
-
----
 
 ## 🚀 Tecnologias utilizadas
 
