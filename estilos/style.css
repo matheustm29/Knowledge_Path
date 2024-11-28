@@ -176,6 +176,7 @@ main h2 {
     padding: 15px;
     border-radius: 10px;
     margin-bottom: 15px;
+    text-align: justify;
 }
 
 #dicas-estudo .dica h3 {
