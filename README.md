@@ -9,7 +9,7 @@
 - [Descrição do Projeto](#-descrição-do-projeto)
 - [Funcionalidades e Demonstração da Aplicação](#-funcionalidades-e-demonstração-da-aplicação)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
-- [Pessoas Desenvolvedoras do Projeto](#-pessoas-desenvolvedoras-do-projeto)
+- [Desenvolvedores do Projeto](#-desenvolvedores-do-projeto)
 
 ---
 
@@ -30,7 +30,7 @@ Além disso, o Knowledge Path atende estudantes de diversas faixas etárias e n�
 
 ### Demonstração:
 Link do Vídeo:
-![Demonstração](https://drive.google.com/file/d/1M5JTDVg1Pr6eAuM0St1nG5MZNNFlXTdN/view?usp=sharing)  
+[Demonstração](https://drive.google.com/file/d/1M5JTDVg1Pr6eAuM0St1nG5MZNNFlXTdN/view?usp=sharing)  
 **Ou acesse a aplicação ao vivo:** [Link para a demonstração](https://matheustm29.github.io/Knowledge_Path/).
 
 ---
