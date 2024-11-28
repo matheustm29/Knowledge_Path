@@ -3,6 +3,14 @@
 ![Banner do Projeto](imagens/banner.jpeg)
 
 ---
+# Projeto de Programação Web Front-End
+
+
+| ID   |                                 Equipe                                    |   RA       | 
+| :--: | :-----------------------------------------------------------------------: | :--------: |
+|   01 |              Leonardo Rodrigues de Souza                                  |  2313189   |    
+|   02 |           Luhan Christyan Rodrigues                                       |  2453630   |   
+|   03 |           Matheus Ferreira Alphonse dos Anjos                             |  2454220   | 
 
 ## 📑 Índice
 - [Descrição do Projeto](#-descrição-do-projeto)
@@ -14,7 +22,7 @@
 ---
 
 ## 📝 Descrição do Projeto
-Este projeto, Knowledge Path, tem como objetivo ser um guia completo para estudantes que estão se preparando para vestibulares e outras provas importantes. Ele oferece uma solução prática para a falta de organização e centralização de informações essenciais, como dicas de estudo, simulados, matérias-chave e calendários de datas importantes.
+Este projeto, Knowledge Path, tem como objetivo ser um guia sofisticado para estudantes que estão se preparando para vestibulares e outras provas importantes. Ele oferece uma solução prática para a falta de organização e centralização de informações essenciais, como dicas de estudo, simulados, matérias-chave e calendários de datas importantes.
 
 Desenvolvido com foco na acessibilidade e organização, o site proporciona um ambiente intuitivo e motivador, ajudando os estudantes a se manterem no caminho certo para atingir seus objetivos acadêmicos.
 Além disso, o Knowledge Path atende estudantes de diversas faixas etárias e níveis de conhecimento, oferecendo recursos como:
