@@ -50,7 +50,7 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - [Matheus Ferreira Alphonse dos Anjos](https://github.com/matheustm29)  
 - [Leonardo Rodrigues de Souza](https://github.com/LeoRodrigues1)  
-- [Luhan Chrystian Rodrigues](https://github.com/LuhanChristyan)   
+- [Luhan Christyan Rodrigues](https://github.com/LuhanChristyan)   
 
 
 
