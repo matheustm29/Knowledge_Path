@@ -1,0 +1,206 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Paleta de cores */
+:root {
+    --cor0: #f0f8ff; /* Azul Claro (fundo principal) */
+    --cor1: #e9ecef; /* Cinza Claro (secundário) */
+    --cor2: #212529; /* Preto Suave (texto principal) */
+    --cor3: #3b82f6; /* Azul Médio (links e destaques) */
+    --cor4: #74c69d; /* Verde Suave (botões e ações positivas) */
+    --cor5: #ffd43b; /* Amarelo Pastel (avisos e destaques) */
+    --cor6: #ff6b6b; /* Vermelho Moderado (erros e alertas) */
+    --fonte-padrao: 'Roboto', Arial, sans-serif;
+    --fonte-destaque: 'Montserrat', sans-serif;
+    --fonte-escrita: 'Lora', serif;
+}
+
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    color: var(--cor2);
+}
+
+header {
+    background-color: var(--cor3);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+header .logo {
+    font-family: var(--fonte-destaque);
+    font-size: 1.8rem;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: var(--cor4);
+}
+
+header .icon {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.sidebar {
+    background-color: var(--cor2);
+    color: white;
+    width: 220px;
+    height: 100vh;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.sidebar ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.sidebar ul li {
+    margin-bottom: 15px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    background-color: transparent;
+    transition: background-color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background-color: var(--cor3);
+    color: var(--cor0);
+}
+
+main {
+    margin-left: 240px;
+    padding: 20px;
+    background-color: var(--cor1);
+    flex: 1;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    font-family: var(--fonte-destaque);
+    font-size: 1.5rem;
+    color: var(--cor2);
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--cor2);
+}
+
+button {
+    background-color: var(--cor4);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: var(--cor3);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid var(--cor2);
+}
+
+table th {
+    background-color: var(--cor3);
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: var(--cor1);
+}
+
+table tr:hover {
+    background-color: var(--cor5);
+}
+
+footer {
+    background-color: var(--cor2);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    margin-top: auto;
+    width: 100%;
+}
+
+footer a {
+    color: var(--cor3);
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: var(--cor4);
+}
+
+
+
