@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const clearAll = document.getElementById("clearAll");
     const searchInput = document.getElementById("searchInput");
 
-    // Função para carregar usuários do Local Storage
+   
     const loadUsers = () => {
         const users = JSON.parse(localStorage.getItem("users")) || [];
         userList.innerHTML = "";
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     };
 
-    // Salvar novo usuário
+  
     userForm.addEventListener("submit", (e) => {
         e.preventDefault();
         const name = document.getElementById("nome").value.trim();
@@ -34,18 +34,17 @@ document.addEventListener("DOMContentLoaded", () => {
         userForm.reset();
     });
 
-    // Limpar campos do formulário
+
     clearFields.addEventListener("click", () => {
         userForm.reset();
     });
 
-    // Excluir todos os usuários
+ 
     clearAll.addEventListener("click", () => {
         localStorage.removeItem("users");
         loadUsers();
     });
 
-    // Excluir usuário específico
     userList.addEventListener("click", (e) => {
         if (e.target.classList.contains("deleteBtn")) {
             const index = e.target.getAttribute("data-index");
@@ -56,7 +55,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
-    // Pesquisar na lista
     searchInput.addEventListener("input", () => {
         const query = searchInput.value.toLowerCase();
         const users = JSON.parse(localStorage.getItem("users")) || [];
@@ -77,7 +75,6 @@ document.addEventListener("DOMContentLoaded", () => {
             });
     });
 
-    // Inicializar a lista de usuários
     loadUsers();
 });
 
