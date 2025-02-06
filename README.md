@@ -30,7 +30,7 @@ Além disso, o Knowledge Path atende estudantes de diversas faixas etárias e n�
 
 ### Demonstração:
 Link do Vídeo:
-[Demonstração](https://drive.google.com/file/d/1M5JTDVg1Pr6eAuM0St1nG5MZNNFlXTdN/view?usp=sharing)  
+[Demonstração](https://drive.google.com/file/d/1nEGPjqnbd7gWwNlW6pbWNO0hn-bePrS5/view?usp=sharing)  
 **Ou acesse a aplicação ao vivo:** [Link para a demonstração](https://matheustm29.github.io/Knowledge_Path/).
 
 ---
